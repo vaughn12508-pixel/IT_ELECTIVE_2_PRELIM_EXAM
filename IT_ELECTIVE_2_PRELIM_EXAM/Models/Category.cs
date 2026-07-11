@@ -12,7 +12,7 @@ public class Category
         Description = "";
     }
 
-    // EXERCISE 4: Assign parameter values to the properties
+    // EXERCISE 4: Assign parameter values to the propertiess
     public Category(string name, string description)
     {
         Name = name;
