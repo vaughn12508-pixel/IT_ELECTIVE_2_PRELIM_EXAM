@@ -11,7 +11,7 @@ public static class GetCategories
         // Send GET request
         var response = await client.GetAsync(url);
 
-        // Assert status code is 200 OK
+        // Assert status code is 200 OK22
         if (response.StatusCode != System.Net.HttpStatusCode.OK)
         {
             throw new Exception($"Expected status code 200 OK but got {response.StatusCode}");
