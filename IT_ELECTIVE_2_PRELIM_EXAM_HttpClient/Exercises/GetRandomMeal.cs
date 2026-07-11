@@ -12,7 +12,7 @@ public static class GetRandomMeal
         // Read response body
         string body = await response.Content.ReadAsStringAsync();
 
-        // Assert status code is 200 OK
+        // Assert status code is 200 OK22
         if (response.StatusCode != System.Net.HttpStatusCode.OK)
         {
             throw new Exception($"Expected status code 200 OK but got {response.StatusCode}");
