@@ -14,7 +14,7 @@ namespace IT_ELECTIVE_2_PRELIM_EXAM.Services;
 // - 'GetMeals()' should be public (external API)
 // - 'RemoveMeal()' should be public (external API)
 // - 'GetKitchenInfo()' should be public (external API)
-// - 'PrepareMeal()' should be protected (only for derived classes)
+// - 'PrepareMeal()' should be protected (only for derived classes)22
 
 public class Kitchen
 {
