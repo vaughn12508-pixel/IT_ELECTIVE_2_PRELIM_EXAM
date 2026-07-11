@@ -32,7 +32,7 @@ public static class GetMealById
             throw new Exception("No meal found.");
         }
 
-        // Access first meal
+        // Access first meal22
         JsonElement meal = meals[0];
 
         // Read strMeal
