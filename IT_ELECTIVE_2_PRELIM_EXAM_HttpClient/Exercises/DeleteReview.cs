@@ -9,7 +9,7 @@ public static class DeleteReview
         // Send DELETE request
         var response = await client.DeleteAsync(url);
 
-        // Assert status code is 200 OK
+        // Assert status code is 200 OK2
         if (response.StatusCode != System.Net.HttpStatusCode.OK)
         {
             throw new Exception($"Expected status code 200 OK but got {response.StatusCode}");
