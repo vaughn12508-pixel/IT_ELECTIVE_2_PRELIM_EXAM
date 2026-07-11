@@ -26,7 +26,7 @@ public static class DeserializeMeals
         // Get meals array
         JsonElement meals = document.RootElement.GetProperty("meals");
 
-        // Assert meals array has more than 0 items
+        // Assert meals array has more than 0 items33
         if (meals.ValueKind == JsonValueKind.Null ||
             meals.GetArrayLength() <= 0)
         {
