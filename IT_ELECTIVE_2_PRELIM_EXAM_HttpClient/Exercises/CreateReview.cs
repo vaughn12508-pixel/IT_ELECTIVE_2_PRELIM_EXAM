@@ -28,7 +28,7 @@ public static class CreateReview
         // Send POST request
         var response = await client.PostAsync(url, content);
 
-        // Assert status code is 201 Created
+        // Assert status code is 201 Created22
         if (response.StatusCode != System.Net.HttpStatusCode.Created)
         {
             throw new Exception($"Expected status code 201 Created but got {response.StatusCode}");
