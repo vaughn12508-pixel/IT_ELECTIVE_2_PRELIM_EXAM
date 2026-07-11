@@ -12,7 +12,7 @@ public class Meal
     private int prepTimeMinutes;
 
     // Properties
-    public string _Name
+    public string Name
     {
         get => name;
         set => name = value;
