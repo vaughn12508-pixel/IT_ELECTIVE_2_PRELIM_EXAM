@@ -1,6 +1,6 @@
 namespace IT_ELECTIVE_2_PRELIM_EXAM.Models;
 
-// EXERCISE 8: Override vs New
+// EXERCISE 8: Override vs Newww
 public class QuickRecipe : RecipeBase
 {
     public int MaxMinutes { get; set; }
